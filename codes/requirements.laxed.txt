@@ -16,11 +16,13 @@ einops
 lambda-networks
 mup
 torch==1.13.1
+torchdata==0.5.1
 
 #UI
 customtkinter
 ruamel.yaml
 # For image generation stuff
+torchvision==0.14.1
 opencv-python
 kornia
 pytorch_ssim
@@ -28,6 +30,7 @@ gsa-pytorch
 pytorch_fid
 
 # For audio generation stuff
+torchaudio==0.13.1
 inflect
 librosa
 Unidecode
@@ -37,6 +40,7 @@ audio2numpy
 SoundFile
 
 # For text stuff
+torchtext==0.14.1
 transformers==4.29.2
 tokenizers
 jiwer  # calculating WER
