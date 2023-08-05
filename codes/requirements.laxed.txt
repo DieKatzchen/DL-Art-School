@@ -17,6 +17,7 @@ lambda-networks
 mup
 torch==1.13.1
 torchdata==0.5.1
+tensorrt
 
 #UI
 customtkinter
